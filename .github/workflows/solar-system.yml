@@ -27,7 +27,7 @@ jobs:
           run: npm install
     
         - name: Unit Testing
-          run: npm test
+          run: npm test2
           
         - name: Archive Test Result
           if: always()
